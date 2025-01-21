@@ -132,12 +132,12 @@ class _ContactInfoScreenState extends State<ContactInfoScreen> {
                       SizedBox(
                         height: AppResponsive.height(0.01),
                       ),
-                      twoTextInsideBoxMaker("Full Name", "Abdusalom G'ayratov"),
+                      twoTextInsideBoxMaker("Full Name", "Abzalxon Akramov"),
                       SizedBox(
                         height: AppResponsive.height(0.023),
                       ),
                       twoTextInsideBoxMaker(
-                          "Email Address", "freedom999@gmail.com"),
+                          "Email Address", "Abzalxon1@gmail.com"),
                       SizedBox(
                         height: AppResponsive.height(0.023),
                       ),
@@ -145,11 +145,11 @@ class _ContactInfoScreenState extends State<ContactInfoScreen> {
                       SizedBox(
                         height: AppResponsive.height(0.023),
                       ),
-                      twoTextInsideBoxMaker("Phone number", "977067716"),
+                      twoTextInsideBoxMaker("Phone number", "902187727"),
                       SizedBox(
                         height: AppResponsive.height(0.023),
                       ),
-                      twoTextInsideBoxMaker("ID card number", "1234567890987"),
+                      twoTextInsideBoxMaker("ID card number", "9021877270987"),
                       SizedBox(height: AppResponsive.height(0.01)),
                       Text(
                         "This contact is for e-ticket and refund/rescheduling",

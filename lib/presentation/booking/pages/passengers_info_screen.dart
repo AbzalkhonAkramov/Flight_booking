@@ -122,15 +122,15 @@ class _PassengersInfoScreenState extends State<PassengersInfoScreen> {
               SizedBox(
                 height: AppResponsive.height(0.01),
               ),
-              twoTextInsideBoxMaker("Full Name", "Abdusalom G'ayratov"),
+              twoTextInsideBoxMaker("Full Name", "Abzalxon Akramov"),
               SizedBox(
                 height: AppResponsive.height(0.023),
               ),
-              twoTextInsideBoxMaker("Email Address", "freedom999@gmail.com"),
+              twoTextInsideBoxMaker("Email Address", "Abzalxon1@gmail.com"),
               SizedBox(
                 height: AppResponsive.height(0.023),
               ),
-              twoTextInsideBoxMaker("ID card number", "1234567890987"),
+              twoTextInsideBoxMaker("ID card number", "9021877270987"),
               SizedBox(height: AppResponsive.height(0.01)),
               Text(
                 "This contact is for e-ticket and refund/rescheduling",

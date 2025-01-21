@@ -46,7 +46,7 @@ Future<dynamic> showBaggageAddBottomSheet(BuildContext context) {
               height: AppResponsive.height(0.027),
             ),
             Text(
-              "1. Matt Murdock",
+              "1. Jamshid Murodov",
               style: AppTextStyles.bodyBigger(
                 color: AppColors.black,
               ).copyWith(
@@ -93,7 +93,7 @@ Future<dynamic> showBaggageAddBottomSheet(BuildContext context) {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Text(
-                        "1. Matt Murdock",
+                        "1. Jamshid Murodov",
                         style: AppTextStyles.bodyBigger(
                           color: AppColors.grey,
                         ).copyWith(

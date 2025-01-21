@@ -1,8 +1,10 @@
 import 'package:flight_booking_app/core/common/constants/app_colors.dart';
 import 'package:flight_booking_app/core/common/constants/icons_paths.dart';
 import 'package:flight_booking_app/core/common/constants/img_paths.dart';
+import 'package:flight_booking_app/core/common/constants/route_names.dart';
 import 'package:flight_booking_app/core/utils/app_responsive.dart';
 import 'package:flight_booking_app/core/utils/app_textstyles.dart';
+import 'package:flight_booking_app/presentation/settings/pages/settings_page.dart';
 import 'package:flutter/material.dart';
 
 class AccountScreen extends StatefulWidget {
@@ -92,7 +94,7 @@ class _AccountScreenState extends State<AccountScreen> {
                                   spacing: AppResponsive.height(0.0027),
                                   children: [
                                     Text(
-                                      "Abdusalom",
+                                      "Abzalxon",
                                       style: TextStyle(
                                         color: AppColors.white,
                                         fontSize:
@@ -102,12 +104,12 @@ class _AccountScreenState extends State<AccountScreen> {
                                       ),
                                     ),
                                     Text(
-                                      "freedom@gmail.com",
+                                      "Abzalxon1@gmail.com",
                                       style: AppTextStyles.bodyBigger(
                                           color: AppColors.white),
                                     ),
                                     Text(
-                                      "+998977067716",
+                                      "+998902187727",
                                       style: AppTextStyles.bodyBigger(
                                           color: AppColors.white),
                                     ),
@@ -209,15 +211,21 @@ class _AccountScreenState extends State<AccountScreen> {
                         size: AppResponsive.screenHeight * 0.023,
                       ),
                     ),
-                    iconTextAnd3rdWidgetMaker(
-                      Icons.settings,
-                      "Settings",
-                      Icon(
-                        IconsPaths.forward,
-                        color: AppColors.grey.withValues(alpha: 0.6),
-                        size: AppResponsive.screenHeight * 0.023,
+                    GestureDetector(
+                      child: iconTextAnd3rdWidgetMaker(
+                        Icons.settings,
+                        "Settings",
+                        Icon(
+                          IconsPaths.forward,
+                          color: AppColors.grey.withValues(alpha: 0.6),
+                          size: AppResponsive.screenHeight * 0.023,
+                        ),
                       ),
+                      onTap: (){
+                        Navigator.pushNamed(context, RouteNames.settingsPage);
+                      },
                     ),
+
                   ],
                 ),
               ),

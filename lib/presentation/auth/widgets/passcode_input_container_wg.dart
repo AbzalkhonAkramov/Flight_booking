@@ -22,7 +22,7 @@ class PasscodeInputContainerWg extends StatelessWidget {
           child: Align(
             alignment: Alignment.center,
             child: Text(
-              '7',
+              '1',
               style: AppTextStyles.bodyBigger(color: AppColors.black),
             ),
           ),

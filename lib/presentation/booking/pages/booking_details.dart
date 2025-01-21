@@ -126,7 +126,7 @@ class _BookingDetailsState extends State<BookingDetails> {
                                       width: AppResponsive.width(0.02),
                                     ),
                                     Text(
-                                      "Matt Murdock",
+                                      "Jamshid Murodov",
                                       style: AppTextStyles.titleBigger(
                                         color: AppColors.black,
                                       ).copyWith(
@@ -187,7 +187,7 @@ class _BookingDetailsState extends State<BookingDetails> {
                                             AppResponsive.screenHeight * 0.025,
                                       ),
                                       Text(
-                                        "freedom999@gmail.com",
+                                        "Abzalxon1@gmail.com",
                                         style: AppTextStyles.bodyBigger(
                                           color: AppColors.grey
                                               .withValues(alpha: 0.7),
@@ -208,7 +208,7 @@ class _BookingDetailsState extends State<BookingDetails> {
                                             AppResponsive.screenHeight * 0.025,
                                       ),
                                       Text(
-                                        "+998977067716",
+                                        "+998902187727",
                                         style: AppTextStyles.bodyBigger(
                                           color: AppColors.grey
                                               .withValues(alpha: 0.7),
@@ -272,7 +272,7 @@ class _BookingDetailsState extends State<BookingDetails> {
                           ),
                         ),
                         child: boxOfTextAndIconMaker(
-                          "Abdusalom G'ayratov",
+                          "Abzalxon Akramov",
                           Icon(
                             IconsPaths.forward,
                             color: AppColors.grey.withValues(alpha: 0.7),
