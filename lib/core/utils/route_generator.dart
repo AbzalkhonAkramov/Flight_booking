@@ -6,13 +6,14 @@ import 'package:flight_booking_app/presentation/auth/pages/signin_page.dart';
 import 'package:flight_booking_app/presentation/auth/pages/transaction_details_page.dart';
 import 'package:flight_booking_app/presentation/home/pages/home_page.dart';
 import 'package:flight_booking_app/presentation/main_page.dart';
+import 'package:flight_booking_app/presentation/settings/pages/set_pin_page.dart';
 import 'package:flight_booking_app/presentation/settings/pages/settings_email_and_number_page.dart';
 import 'package:flight_booking_app/presentation/settings/pages/settings_language_page.dart';
 import 'package:flight_booking_app/presentation/settings/pages/settings_notification_page.dart';
 import 'package:flight_booking_app/presentation/settings/pages/settings_page.dart';
 import 'package:flight_booking_app/presentation/settings/pages/settings_security_delete_account_page.dart';
 import 'package:flight_booking_app/presentation/settings/pages/settings_security_page.dart';
-import 'package:flight_booking_app/presentation/settings/pages/settings_security_pin_page.dart';
+import 'package:flight_booking_app/presentation/settings/pages/confirm_pin_page.dart';
 import 'package:flutter/material.dart';
 
 import '../../presentation/auth/pages/signup_page.dart';
@@ -47,7 +48,7 @@ class AppRoute {
         return MaterialPageRoute(builder: (_) => const SettingsLanguagePage());
       case RouteNames.settingsSecurityPinPage:
         return MaterialPageRoute(
-            builder: (_) => const SettingsSecurityPinPage());
+            builder: (_) => const SetPinPage());
       case RouteNames.settingsEmailAndNumberPage:
         return MaterialPageRoute(
             builder: (_) => const SettingsEmailAndNumberPage());
